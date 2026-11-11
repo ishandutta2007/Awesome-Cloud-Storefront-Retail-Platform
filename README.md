@@ -58,9 +58,9 @@ The table below lists the primary managed cloud storefronts and retail software 
 
 ## ⭐ High-Star Open-Source Commerce Repositories
 
-The repositories below offer developer-friendly, self-hosted, or headless commerce backends and storefronts. **Sorted strictly in descending order of GitHub star counts.**
+The repositories below offer developer-friendly, self-hosted, or headless commerce backends and storefronts. **Sorted strictly in descending order of GitHub Stars_Counts.**
 
-| Repository | GitHub Star Badge | Core Architecture / Tech Stack | Primary Focus & Highlights |
+| Repository | GitHub Stars_Badge | Core Architecture / Tech Stack | Primary Focus & Highlights |
 |:-----------|:------------------|:-------------------------------|:---------------------------|
 | **[Medusa](https://github.com/medusajs/medusa)** | [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | Node.js, TypeScript, PostgreSQL, Redis | Modular, composable headless engine designed as an open-source alternative to Shopify. Highly extensible through custom plugins, workflows, and modules. |
 | **[Bagisto](https://github.com/bagisto/bagisto)** | [![Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers) | PHP, Laravel, MySQL, Vue.js | Enterprise-ready e-commerce and multi-vendor marketplace platform capable of handling 10M+ SKUs, multi-locale, and GraphQL headless commerce. |
@@ -111,7 +111,7 @@ Contributions to this ecosystem are warmly encouraged!
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a topic branch**: `git checkout -b feature/add-new-retail-platform`.
 3. 📝 **Add or update the solution** in `README.md`:
-   - Follow the established table schema (Name, Star Badge / Valuation, Pricing, Free tier limits, Description).
+   - Follow the established table schema (Name, Stars_Badge / Valuation, Pricing, Free tier limits, Description).
    - Verify that all URLs are canonical and pricing tiers reflect current vendor terms.
 4. 🚀 **Submit a Pull Request** with a concise description of the addition.
 
