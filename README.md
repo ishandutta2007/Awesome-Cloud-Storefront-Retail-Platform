@@ -1,6 +1,6 @@
 # Awesome-Cloud-Storefront-Retail-Platform
 
-# Top Cloud Storefront & Retail Platform Ecosystem
+## Top Cloud Storefront & Retail Platform Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on E-Commerce Storefronts, Headless Commerce & Retail Operations*  
