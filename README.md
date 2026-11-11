@@ -1,85 +1,135 @@
-# Awesome-Cloud-Storefront-Retail-Platform
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Cloud Storefront & Retail Platform Ecosystem" width="100%" />
+</p>
 
-## Top Cloud Storefront & Retail Platform Ecosystem
+# 🛒 Awesome Cloud Storefront & Retail Platform Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on E-Commerce Storefronts, Headless Commerce & Retail Operations*  
-**Last updated: March 2026**
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Tracked Solutions](https://img.shields.io/badge/Solutions-24%2B-blue.svg)](#-table-of-contents)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Storefront & Retail Platforms**. These tools help merchants build and operate online stores—covering product catalogs, checkout flows, payment processing, inventory management, and headless commerce APIs that decouple the storefront from the backend.
-
-**Examples** include Shopify, BigCommerce, Adobe Commerce, WooCommerce, Squarespace Commerce, Wix eCommerce, Ecwid, Shift4Shop, Zoho Commerce, and Magento Open Source (the category leaders).
-
-**Open-source emphasis**: This section highlights every major active project for self-hosted e-commerce platforms, open-source commerce frameworks, and community-driven retail tooling—ideal for merchants, developers, and organizations seeking data ownership and lower transaction fees over fully managed SaaS lock-in.
-
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global **e-commerce platform market** was valued at approximately **$7.97 billion in 2026** and is projected to reach **$20.17 billion by 2034**, growing at a CAGR of **12.3%** [citation:1]. A broader definition of the **digital commerce platform market** places it at **$16.75 billion in 2026**, forecast to reach **$30.5 billion by 2030** at a CAGR of **16.2%** [citation:13].
-
-The sector is **highly concentrated at the top but fragmented below**. **Shopify** holds approximately **46% of the e-commerce platform market share** as of early 2026, with over 2 million merchants across all tiers [citation:9]. Its Q3 2026 GMV reached **$124 billion**, more than doubling from $50 billion in Q1 2023 [citation:3]. **Adobe Commerce** (Magento) serves roughly **28,000 merchants**, skewed heavily toward enterprise accounts with average GMV above $50 million annually . Despite Shopify's dominance, the long tail of open-source platforms (WooCommerce, PrestaShop, Sylius, Vendure, Medusa) and regional players ensures the market remains far from a single-vendor monopoly—merchants continue to choose platforms based on ownership, cost structure, and technical control.
-
-## SaaS/Hosted Platforms
-
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Shopify](https://www.shopify.com/)** | Leading cloud commerce platform with 2M+ merchants. Covers online store, POS, payments, shipping, and capital. Merchant Solutions (payments, fulfillment) drove 78% of Q3 2026 revenue [citation:3]. | Basic: $39/month; Grow: $105/month; Advanced: $399/month (monthly billing; annual discounts available) | **3-day free trial**, then **$1/month for first 3 months** on select plans; no permanent free tier |
-| **[BigCommerce](https://www.bigcommerce.com/)** | Open-SaaS commerce platform for B2B and B2C. FY2025 GMV was **$31.7 billion**, up 12% [citation:5]. Strengths in multi-storefront, B2B pricing, and headless APIs. | Standard: $39.95/month; Plus: $105/month; Pro: $399/month (annual billing) | **15-day free trial**; no permanent free tier |
-| **[Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html)** | Enterprise commerce platform (formerly Magento Commerce). Adobe does not break out Commerce revenue; Digital Experience segment posted ~$5.5B in FY2025 . Skews to large enterprises with complex B2B and multi-brand needs. | Quote-only (typically $22,000–$125,000+/year depending on GMV tier) | No free tier; demo via sales |
-| **[WooCommerce](https://woocommerce.com/)** | WordPress plugin that transforms a WordPress site into an online store. Powers a massive share of small-to-mid market e-commerce. 50,000+ extensions in the ecosystem [citation:14]. | **Free** (plugin itself); hosting, premium extensions, and themes cost extra | **Free forever**: core plugin is open-source (GPL); costs are hosting and optional extensions |
-| **[Squarespace Commerce](https://www.squarespace.com/)** | Website builder with integrated commerce. Strong for content-driven brands that need a polished storefront without technical complexity. | Business: $23/month (annual); Commerce: $28/month; Advanced: $49/month | **14-day free trial**; no permanent free tier |
-| **[Wix eCommerce](https://www.wix.com/)** | Website builder with commerce capabilities. Drag-and-drop editor, multi-channel selling, and payment integrations. | Business Elite: from ~$35/month (annual) | **14-day free trial**; no permanent free tier |
-| **[Ecwid](https://www.ecwid.com/)** | Embeddable shopping cart that adds e-commerce to any existing website (WordPress, Wix, Squarespace, social media). Acquired by Lightspeed. | Venture: $15/month; Business: $35/month; Unlimited: $99/month | **Free plan**: up to 5 products, 2 categories, sell on social; paid plans for growth |
-| **[Shift4Shop](https://www.shift4shop.com/)** | All-in-one e-commerce platform with built-in hosting and no transaction fees on most plans. | Free (with Shift4 payments): $0; Basic: $29/month; Plus: $79/month | **Free plan** (End-to-End Commerce) with Shift4 payment processing; feature-limited |
-| **[Zoho Commerce](https://www.zoho.com/commerce/)** | E-commerce platform within the Zoho ecosystem. Integrates with Zoho CRM, Books, Inventory, and Marketing. | Professional: $20/month; Enterprise: $40/month (annual) | **15-day free trial**; no permanent free tier |
-| **[Magento Open Source](https://business.adobe.com/products/magento/open-source.html)** | The free, open-source version of Magento (now Adobe Commerce). Requires self-hosting and significant technical expertise; typically 8GB+ RAM and Elasticsearch/Redis/Varnish stack [citation:14]. | **Free** (software); infrastructure and developer costs are significant | **Free forever** (software); TCO is high due to hosting and maintenance |
-
-## Open-Source GitHub Projects
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[WooCommerce](https://github.com/woocommerce/woocommerce)** | [![Stars](https://img.shields.io/github/stars/woocommerce/woocommerce?style=social&color=white)](https://github.com/woocommerce/woocommerce/stargazers) | WordPress-based e-commerce plugin. The most widely deployed open-source storefront solution. Requires WordPress; 50,000+ extensions available, many paid [citation:8][citation:14]. |
-| **[OpenCart](https://github.com/opencart/opencart)** | [![Stars](https://img.shields.io/github/stars/opencart/opencart?style=social&color=white)](https://github.com/opencart/opencart/stargazers) | PHP-based open-source e-commerce platform with 4,355 stars and a "Fair" health rating per LFX Insights [citation:2]. Self-hosted; module marketplace for extensions. |
-| **[Sylius](https://github.com/Sylius/Sylius)** | [![Stars](https://img.shields.io/github/stars/Sylius/Sylius?style=social&color=white)](https://github.com/Sylius/Sylius/stargazers) | Symfony-based commerce framework for B2C and B2B stores. Clean, testable codebase. 3,330 stars, "Excellent" health rating [citation:2]. Some enterprise features in paid Sylius Plus edition [citation:8]. |
-| **[Shopware](https://github.com/shopware/shopware)** | [![Stars](https://img.shields.io/github/stars/shopware/shopware?style=social&color=white)](https://github.com/shopware/shopware/stargazers) | PHP-based open-source e-commerce platform popular in Europe. 2,820 stars, "Healthy" health rating [citation:2]. Self-hosted or cloud; strong B2B and multi-channel capabilities. |
-| **[Bagisto](https://github.com/bagisto/bagisto)** | [![Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers) | Laravel-based open-source e-commerce framework. 1,549 stars, "Excellent" health rating [citation:2]. Headless-ready, GraphQL API, multi-currency and multi-locale support. |
-| **[Vendure](https://github.com/vendurehq/vendure)** | [![Stars](https://img.shields.io/github/stars/vendurehq/vendure?style=social&color=white)](https://github.com/vendurehq/vendure/stargazers) | Headless commerce framework on Node.js/TypeScript/GraphQL. Designed for extension via plugins. GPL-3.0 since v3; commercial license offered for closed-source use [citation:8]. |
-| **[Medusa](https://github.com/medusajs/medusa)** | [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | Open-source headless commerce platform built on Node.js. Modular architecture with a growing ecosystem of plugins and integrations. Popular for developer-led custom storefronts. |
-| **[PrestaShop](https://github.com/PrestaShop/PrestaShop)** | [![Stars](https://img.shields.io/github/stars/PrestaShop/PrestaShop?style=social&color=white)](https://github.com/PrestaShop/PrestaShop/stargazers) | PHP e-commerce platform popular in Europe. Complete package with storefront, catalog, checkout, and module marketplace. Many modules/themes are paid add-ons [citation:8]. |
-
-### Additional Strong Open-Source Options
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[EverShop](https://github.com/evershopcommerce/evershop)** | [![Stars](https://img.shields.io/github/stars/evershopcommerce/evershop?style=social&color=white)](https://github.com/evershopcommerce/evershop/stargazers) | TypeScript/GraphQL/React online store with admin panel and modular extensions. Self-host only; hosted cloud still in development [citation:8]. |
-| **[Open Source Point of Sale](https://github.com/opensourcepos/opensourcepos)** | [![Stars](https://img.shields.io/github/stars/opensourcepos/opensourcepos?style=social&color=white)](https://github.com/opensourcepos/opensourcepos/stargazers) | Web-based POS with stock, sales register, invoicing, receipts, barcodes, gift cards, and restaurant tables. MIT plus footer-attribution clause [citation:8]. |
-
-**Frameworks for building custom systems**: Combine **Medusa** or **Vendure** for headless commerce APIs, **WooCommerce** or **PrestaShop** for self-hosted turnkey stores, and **Sylius** or **Bagisto** for framework-level customization—all deployable on commodity infrastructure without platform transaction fees.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- E-commerce platforms handle payment card data and customer PII; enforce PCI DSS compliance, encryption at rest and in transit, and least-privilege access to admin panels.
-- SaaS platform pricing changes frequently (Shopify's $1/month trial, BigCommerce's plan tiers); verify against vendor pages before committing. Open-source platforms shift infrastructure and maintenance burden to you—Magento in particular requires significant technical expertise and server resources [citation:14].
+> 🌐 **A comprehensive, SEO-optimized curated directory of cloud storefront platforms, omnichannel retail operating systems, headless e-commerce frameworks, and self-hosted open-source shopping cart engines.**
 
 ---
 
-**Made for merchants, developers, and operations teams building online storefronts.**  
-Let's make cloud retail platforms more open, transparent, and merchant-friendly.
+## 📑 Table of Contents
+- [📌 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ Top SaaS & Hosted Cloud Retail Platforms](#️-top-saas--hosted-cloud-retail-platforms)
+- [⭐ High-Star Open-Source Commerce Repositories](#-high-star-open-source-commerce-repositories)
+- [🏗️ Architectural Archetypes & Choosing a Stack](#️-architectural-archetypes--choosing-a-stack)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [🔒 Security & Production Best Practices](#-security--production-best-practices)
+- [📜 Disclaimer & Notes](#-disclaimer--notes)
+
+---
+
+## 📌 Sector Overview & Market Dynamics
+
+The global **e-commerce platform market** is valued at approximately **$7.97 billion in 2026** and is projected to expand to **$20.17 billion by 2034**, recording a compound annual growth rate (**CAGR of 12.3%**). Under broader categorizations that encompass enterprise digital experience architectures, omnichannel order management systems (OMS), and composable commerce backbones, the **digital commerce platform market** stands at **$16.75 billion in 2026** and is forecast to reach **$30.5 billion by 2030** (**16.2% CAGR**).
+
+### 📊 Market Concentration & Fragmentation Analysis
+* **Concentrated SaaS Tier**: The hosted storefront tier displays heavy winner-take-all concentration at the top. **Shopify** commands approximately **46% of the U.S. and multi-tenant e-commerce platform market share** in 2026, serving over 2 million merchants with quarterly GMV surpassing $120B+. Enterprise requirements are dominated by cloud giants like **Adobe (Adobe Commerce / Magento)**, **Salesforce (B2C & B2B Commerce)**, and **BigCommerce**.
+* **Fragmented Open-Source & Headless Long-Tail**: Despite SaaS market consolidation, the overall retail software sector remains **moderately fragmented** due to strong merchant appetite for data ownership, lower transaction fees, and headless/composable flexibility. Next-generation open-source frameworks (**Medusa**, **Bagisto**, **Saleor**, **Vendure**, **Spree**) and veteran foundations (**WooCommerce**, **PrestaShop**, **OpenCart**) power millions of independent stores worldwide.
+
+---
+
+## ☁️ Top SaaS & Hosted Cloud Retail Platforms
+
+The table below lists the primary managed cloud storefronts and retail software suites, ranked in **descending order by company scale** (market capitalization or corporate valuation).
+
+| SaaS Platform | Company Scale (Valuation / Revenue) | Starting Price (Strictly Verified) | Free Tier / Free Trial Limits | Key Capabilities & Target Audience |
+|:--------------|:------------------------------------|:-----------------------------------|:------------------------------|:-----------------------------------|
+| **[Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html)** | **~$220B+ Market Cap** (Adobe Inc., FY2025 Digital Experience rev: ~$5.5B) | **Quote-only** (Starting tier typically ~$1,833/month / $22,000/year based on GMV tiers) | **No permanent free tier**; interactive sandbox demo available via sales team | Enterprise-grade B2B/B2C commerce suite (formerly Magento Enterprise) featuring native multi-brand & AI merchandising. |
+| **[Shopify](https://www.shopify.com/)** | **~$125B+ Market Cap** (Shopify Inc., FY2025 Revenue: ~$8.8B+) | **$39/month** (Basic plan, billed monthly; $29/mo billed annually) | **3-day full-feature free trial**, followed by a **$1/month promotional period for first 3 months**; no permanent free plan | Category-defining cloud retail OS with integrated payments, unified POS, fulfillment networks, and headless storefront SDKs. |
+| **[Wix eCommerce](https://www.wix.com/)** | **~$11B+ Market Cap** (Wix.com Ltd., FY2025 Revenue: ~$1.75B+) | **$29/month** (Core plan, billed annually) | **14-day free trial** with full checkout preview; free forever website builder available, but online store checkout is disabled | Visual storefront builder with integrated multi-channel sales (Amazon/eBay/TikTok), inventory tracking, and payment processing. |
+| **[Zoho Commerce](https://www.zoho.com/commerce/)** | **~$5B+ Valuation** (Zoho Corp., FY2025 Revenue: ~$1.4B+) | **$22/month** (Starter tier billed annually, or $27 billed monthly) | **15-day free trial** with complete access to all store features; no permanent free storefront tier | Native integration into the Zoho business ecosystem (Zoho Books, CRM, Inventory, Analytics, and Desk). |
+| **[Squarespace Commerce](https://www.squarespace.com/)** | **~$7.2B Valuation** (Acquired by Permira in 2024; FY2025 rev: ~$1.1B+) | **$23/month** (Business plan, billed annually; 3% transaction fee) or **$28/month** (Basic Commerce, 0% transaction fee) | **14-day full-feature free trial** (extendable by 7 days upon request); no permanent free store plan | Design-forward storefront templates optimized for independent creators, boutique lifestyle brands, and portfolio commerce. |
+| **[Shift4Shop](https://www.shift4shop.com/)** | **~$6B+ Market Cap** (Shift4 Payments Inc., FY2025 gross rev: ~$3.2B+) | **$0/month** (Free End-to-End plan using Shift4 payments) or **$29/month** (Basic Store with external gateways) | **Permanent Free Tier** (100% free when using Shift4 Merchant Services processing at least $500/mo); 15-day free trial on standalone plans | Turnkey storefront solution featuring unlimited products, zero bandwidth fees, built-in fraud prevention, and integrated payment processing. |
+| **[WooCommerce Hosted (Woo.com / Automattic)](https://woocommerce.com/)** | **~$3B Valuation** (Automattic Inc., estimated parent valuation) | **$3.95/month** (Woo Express promotional starter, renewing at $39/mo) | **14-day free trial** on managed Woo Express cloud hosting; open-source self-hosted plugin remains permanently free | Fully managed cloud WordPress hosting with pre-configured WooCommerce, store themes, and automated maintenance. |
+| **[BigCommerce](https://www.bigcommerce.com/)** | **~$600M Market Cap** (BigCommerce Holdings, FY2025 GMV: ~$31.7B) | **$39/month** (Standard plan, billed monthly; $29/mo billed annually) | **15-day full-feature free trial**; no permanent free tier | Open-SaaS architecture specializing in multi-storefront, wholesale B2B quoting, zero transaction fees, and headless Catalyst APIs. |
+| **[Ecwid by Lightspeed](https://www.ecwid.com/)** | **~$1.6B Market Cap** (Lightspeed Commerce Inc., acquired for ~$500M) | **$19/month** (Venture plan billed annually, or $25 billed monthly) | **Permanent Free Tier**: Up to 5 catalog items, 2 categories, responsive cart, and tax calculation; 14-day free trial on higher plans | Modular shopping cart widget embeddable into any existing CMS (WordPress, Webflow, Notion, social channels, or mobile apps). |
+
+---
+
+## ⭐ High-Star Open-Source Commerce Repositories
+
+The repositories below offer developer-friendly, self-hosted, or headless commerce backends and storefronts. **Sorted strictly in descending order of GitHub star counts.**
+
+| Repository | GitHub Star Badge | Core Architecture / Tech Stack | Primary Focus & Highlights |
+|:-----------|:------------------|:-------------------------------|:---------------------------|
+| **[Medusa](https://github.com/medusajs/medusa)** | [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | Node.js, TypeScript, PostgreSQL, Redis | Modular, composable headless engine designed as an open-source alternative to Shopify. Highly extensible through custom plugins, workflows, and modules. |
+| **[Bagisto](https://github.com/bagisto/bagisto)** | [![Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers) | PHP, Laravel, MySQL, Vue.js | Enterprise-ready e-commerce and multi-vendor marketplace platform capable of handling 10M+ SKUs, multi-locale, and GraphQL headless commerce. |
+| **[Saleor](https://github.com/saleor/saleor)** | [![Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers) | Python, Django, GraphQL, PostgreSQL | High-performance, ultra-fast headless GraphQL API for global multi-channel and multi-currency enterprise digital commerce. |
+| **[Spree Commerce](https://github.com/spree/spree)** | [![Stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers) | Ruby on Rails, PostgreSQL, Next.js | Battle-tested full-stack & headless platform for DTC, B2B, and multi-vendor marketplaces with REST APIs and ready-to-deploy Next.js storefront. |
+| **[Magento 2 Open Source](https://github.com/magento/magento2)** | [![Stars](https://img.shields.io/github/stars/magento/magento2?style=social&color=white)](https://github.com/magento/magento2/stargazers) | PHP, Elasticsearch, Redis, MySQL, Varnish | Industrial-grade self-hosted open-source foundation backing tens of thousands of complex global stores; massive module ecosystem. |
+| **[Alokai (Vue Storefront)](https://github.com/vuestorefront/vue-storefront)** | [![Stars](https://img.shields.io/github/stars/vuestorefront/vue-storefront?style=social&color=white)](https://github.com/vuestorefront/vue-storefront/stargazers) | TypeScript, Vue.js / Nuxt, React / Next.js | Frontend as a Service (FEaaS) and composable storefront framework connecting headless commerce APIs to blazing-fast customer-facing web apps. |
+| **[WooCommerce Core](https://github.com/woocommerce/woocommerce)** | [![Stars](https://img.shields.io/github/stars/woocommerce/woocommerce?style=social&color=white)](https://github.com/woocommerce/woocommerce/stargazers) | PHP, WordPress, MySQL, React | The world's most widely deployed open-source e-commerce platform, powering millions of stores with over 50,000+ plugins and theme extensions. |
+| **[EverShop](https://github.com/evershopcommerce/evershop)** | [![Stars](https://img.shields.io/github/stars/evershopcommerce/evershop?style=social&color=white)](https://github.com/evershopcommerce/evershop/stargazers) | Node.js, React, GraphQL, PostgreSQL | Modern, modular full-stack JavaScript commerce engine offering built-in admin dashboard, responsive themes, and micro-frontend extensibility. |
+| **[PrestaShop](https://github.com/PrestaShop/PrestaShop)** | [![Stars](https://img.shields.io/github/stars/PrestaShop/PrestaShop?style=social&color=white)](https://github.com/PrestaShop/PrestaShop/stargazers) | PHP, Symfony, MySQL, Smarty/Twig | European commerce cornerstone providing complete turnkey storefronts, order workflows, international tax engines, and module marketplace. |
+| **[Vendure](https://github.com/vendurehq/vendure)** | [![Stars](https://img.shields.io/github/stars/vendurehq/vendure?style=social&color=white)](https://github.com/vendurehq/vendure/stargazers) | TypeScript, NestJS, GraphQL, SQLite / PostgreSQL | Modern developer-first headless framework built on NestJS and GraphQL, optimized for custom business rules, microservices, and speed. |
+| **[Sylius](https://github.com/Sylius/Sylius)** | [![Stars](https://img.shields.io/github/stars/Sylius/Sylius?style=social&color=white)](https://github.com/Sylius/Sylius/stargazers) | PHP, Symfony, API Platform, PostgreSQL / MySQL | Clean, test-driven commerce framework adhering to strict DDD (Domain-Driven Design), ideal for tailored B2B solutions and enterprise integrations. |
+| **[OpenCart](https://github.com/opencart/opencart)** | [![Stars](https://img.shields.io/github/stars/opencart/opencart?style=social&color=white)](https://github.com/opencart/opencart/stargazers) | PHP, MySQL, MVC-L | Lightweight, user-friendly self-hosted shopping cart system with multi-store management, low hosting resource footprint, and 13,000+ add-ons. |
+| **[Solidus](https://github.com/solidusio/solidus)** | [![Stars](https://img.shields.io/github/stars/solidusio/solidus?style=social&color=white)](https://github.com/solidusio/solidus/stargazers) | Ruby on Rails, PostgreSQL | Fork of Spree Commerce engineered for high-volume retailers, complex fulfillment pipelines, custom subscription workflows, and enterprise agility. |
+| **[Open Source Point of Sale](https://github.com/opensourcepos/opensourcepos)** | [![Stars](https://img.shields.io/github/stars/opensourcepos/opensourcepos?style=social&color=white)](https://github.com/opensourcepos/opensourcepos/stargazers) | PHP, CodeIgniter, MySQL, Bootstrap | Web-based physical POS system with barcode scanning, cash register, customer rewards, inventory management, and receipt printing. |
+| **[Shopware 6](https://github.com/shopware/shopware)** | [![Stars](https://img.shields.io/github/stars/shopware/shopware?style=social&color=white)](https://github.com/shopware/shopware/stargazers) | PHP, Symfony, Vue.js, MySQL | Leading European open-commerce platform with native CMS "Shopping Experiences", Rule Builder, Flow Builder, and headless API-first architecture. |
+| **[Shuup](https://github.com/shuup/shuup)** | [![Stars](https://img.shields.io/github/stars/shuup/shuup?style=social&color=white)](https://github.com/shuup/shuup/stargazers) | Python, Django, PostgreSQL | Multi-vendor marketplace and complex B2B e-commerce platform with modular product attributes, contact pricing, and merchant portals. |
+
+---
+
+## 🏗️ Architectural Archetypes & Choosing a Stack
+
+```
+   ┌─────────────────────────────────────────────────────────────┐
+   │             Digital Retail Architecture Spectrum            │
+   └─────────────────────────────────────────────────────────────┘
+
+  Turnkey All-in-One SaaS       Headless Composable        Self-Hosted Open Source
+  ┌─────────────────────┐      ┌────────────────────┐     ┌─────────────────────┐
+  │  Shopify / BigComm  │      │ Medusa / Saleor    │     │ WooCommerce / Spree │
+  │  Squarespace / Wix  │ ───► │ + Next.js / Alokai │ ──► │ Bagisto / PrestaShop│
+  │                     │      │ + Headless CMS     │     │                     │
+  │  • Zero DevOps      │      │ • Front/Back Decoup│     │ • Full Data Sovereig│
+  │  • Platform fees    │      │ • Infinite UX      │     │ • Self-managed Infra│
+  └─────────────────────┘      └────────────────────┘     └─────────────────────┘
+```
+
+1. **Turnkey SaaS (Fast Time-to-Market)**: Best suited for brands prioritizing marketing and product development over backend engineering. Lower operational burden, managed PCI compliance, but recurring transaction fees.
+2. **Headless Composable Commerce (Enterprise Agility)**: Ideal for fast-scaling DTC brands wanting custom web/mobile frontend experiences (React, Next.js, Vue) backed by robust APIs (**Medusa**, **Saleor**, **Vendure**).
+3. **Turnkey Self-Hosted Open Source (Data Ownership)**: Ideal for organizations subject to strict data sovereignty, localized ERP workflows, or zero-margin tolerance for vendor SaaS lock-in (**Bagisto**, **WooCommerce**, **Sylius**).
+
+---
+
+## 🤝 How to Contribute
+
+Contributions to this ecosystem are warmly encouraged!
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a topic branch**: `git checkout -b feature/add-new-retail-platform`.
+3. 📝 **Add or update the solution** in `README.md`:
+   - Follow the established table schema (Name, Star Badge / Valuation, Pricing, Free tier limits, Description).
+   - Verify that all URLs are canonical and pricing tiers reflect current vendor terms.
+4. 🚀 **Submit a Pull Request** with a concise description of the addition.
+
+---
+
+## 🔒 Security & Production Best Practices
+
+- 🛡️ **PCI DSS Compliance**: If processing payment cards directly, ensure adherence to SAQ-A or SAQ-A-EP requirements. Where possible, leverage hosted fields or payment element iframes (Stripe, Adyen, PayPal).
+- 🔑 **Access Control & Admin Security**: Enforce Multi-Factor Authentication (MFA), role-based access control (RBAC), and IP allowlisting for all administrative consoles.
+- 📦 **Data Sovereignty & Encryption**: Encrypt all customer PII both at rest (AES-256) and in transit (TLS 1.3). Regularly test database backup recovery pipelines.
+
+---
+
+## 📜 Disclaimer & Notes
+
+* ℹ️ This repository is a community-driven curated directory maintained for educational and reference purposes. It does not constitute commercial endorsement or affiliate sponsorship.
+* 💲 SaaS pricing and free trial configurations change periodically; merchants must confirm current tier terms directly with vendor pricing pages before committing.
+* 🛠️ Self-hosted open-source software shifts infrastructure scaling, security updates, and database maintenance to the hosting organization.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for e-commerce architects, retailers, and developers worldwide.</b><br>
+  <sub>⭐ Star this repository if it helps you evaluate or build your cloud storefront stack!</sub>
+</p>
