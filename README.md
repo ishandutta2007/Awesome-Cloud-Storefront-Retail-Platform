@@ -4,10 +4,12 @@
 
 # 🛒 Awesome Cloud Storefront & Retail Platform Ecosystem
 
+<a href="https://github.com/ishandutta2077/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Tracked Solutions](https://img.shields.io/badge/Solutions-24%2B-blue.svg)](#-table-of-contents)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 > 🌐 **A comprehensive, SEO-optimized curated directory of cloud storefront platforms, omnichannel retail operating systems, headless e-commerce frameworks, and self-hosted open-source shopping cart engines.**
 
@@ -19,6 +21,8 @@
 - [⭐ High-Star Open-Source Commerce Repositories](#-high-star-open-source-commerce-repositories)
 - [🏗️ Architectural Archetypes & Choosing a Stack](#️-architectural-archetypes--choosing-a-stack)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 - [🔒 Security & Production Best Practices](#-security--production-best-practices)
 - [📜 Disclaimer & Notes](#-disclaimer--notes)
 
@@ -110,6 +114,23 @@ Contributions to this ecosystem are warmly encouraged!
    - Follow the established table schema (Name, Star Badge / Valuation, Pricing, Free tier limits, Description).
    - Verify that all URLs are canonical and pricing tiers reflect current vendor terms.
 4. 🚀 **Submit a Pull Request** with a concise description of the addition.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using this curated directory! If you find this project valuable for your work, research, or architecture decisions, please consider supporting its ongoing maintenance and updates:
+
+- ⭐ **Star this repository** to help others discover it across GitHub.
+- 🍴 **Fork and contribute** new storefront platforms, open-source engines, or updated benchmarks.
+- 📢 **Share this repository** with your colleagues, retail engineering teams, and developer communities.
+- ☕ **Buy me a coffee / Sponsor**: Support direct development via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Cloud-Storefront-Retail-Platform&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Cloud-Storefront-Retail-Platform&type=date&legend=top-left)
 
 ---
 
